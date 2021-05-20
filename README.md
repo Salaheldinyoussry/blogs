@@ -4,9 +4,9 @@ i have chosen sql datatbase
 why ?
 because the blogs data are relational and have fixed schema 
 
-CURL urls :
+##CURL urls :
 
-  # Post Request  url : ("blog/addBlog"
+  # Post Request  url : "blog/addBlog"
    to add a new blog (blog object  is passed in the body of the request)
     
   # Get Request url : "blog/getAllBlogs"
