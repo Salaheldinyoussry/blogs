@@ -18,9 +18,11 @@ public class PostService2 {
     }
  
         
-    public List<Post> getAllPosts(){
-        return postRepository.findAll();
+    public List<Post> getAllPosts(Long blogId){
+        return postRepository.findByBlogId(blogId);
     }
+   
+
     public void post(Post post) {
     	postRepository.save(post);
     }

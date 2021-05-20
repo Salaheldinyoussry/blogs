@@ -62,9 +62,9 @@ public class controller {
 	   postService.post(post);
     	
     }
-    @GetMapping("post/getAllPosts")
-    public List<Post> getAllPosts(){
-	   return (List<Post>) postService.getAllPosts() ;
+    @GetMapping("post/getAllPosts/{id}")
+    public List<Post> getAllPosts(@PathVariable long id){
+	   return (List<Post>) postService.getAllPosts(id) ;
     	
     }
     
