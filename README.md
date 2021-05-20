@@ -3,7 +3,7 @@
 I have chosen sql datatbase
 why ?
     because the blogs data are relational and have fixed schema 
-#Notes
+
  - no authentication was used as it wasn't requested 
  - although alot of CRUD operations on blogs parts wasn't required most of them was implemented
    
