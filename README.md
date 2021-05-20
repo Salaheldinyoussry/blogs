@@ -1,8 +1,8 @@
 # blogs
 
 i have chosen sql datatbase
-why ?
-because the blogs data are relational and have fixed schema 
+$why ?
+    because the blogs data are relational and have fixed schema 
 
 #CURL urls :
 
